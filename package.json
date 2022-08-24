@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "bot_loot",
+  "version": "1.0.0",
+  "description": "Js bot for looting ds link",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-json-modules index.js",
+    "dev": "nodemon --experimental-json-modules index.js"
+  },
+  "author": "tg - https://t.me/Enit047",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "cheerio": "^1.0.0-rc.11",
+    "node-telegram-bot-api": "^0.57.0",
+    "puppeteer": "^14.4.0",
+    "puppeteer-autoscroll-down": "^1.1.1",
+    "puppeteer-cluster": "^0.23.0",
+    "user-agents": "^1.0.1052"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
